@@ -18,5 +18,8 @@ public class OpgaveTestTo {
         } else if (tegn == '/') {
             System.out.println(number / numberTo);
         }
+        else {
+            System.out.println("du har ikke skrevet et rigtigt tegn");
+        }
     }
 }
